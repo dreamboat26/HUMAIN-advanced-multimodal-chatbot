@@ -1,10 +1,7 @@
-# Advanced Multimodal Chatbot Readme
+![Schema](https://github.com/user-attachments/assets/c896bc6a-bd1f-4d21-bb01-57f92146ad3b)![UI](https://github.com/user-attachments/assets/c8d48a44-599b-494a-a2e2-73db8c6676fc)
 
 Welcome to my advanced multimodal chatbot! Here's a breakdown of what it can do and how to get it up and running.
 ## HUMAIN multi-modal multi-task chatbot
-<div align="center">
-  <img src="images/HUMAIN.png" alt="HUMAIN">
-</div>
 
 ## Features:
 - ChatGPT-like interaction: Chatbot can act as a normal AI assistant.
@@ -19,9 +16,6 @@ Welcome to my advanced multimodal chatbot! Here's a breakdown of what it can do 
 - Text and voice interaction: Interact with chatbot through both text and voice inputs.
 - Memory: The GPT models in the chatbot also have access to the memory (user's previous queries during the current session).
 
-NOTE: This chatbot includes both the RAG-GPT and WebRAGQuery projects.
-
-**YouTube video:** [Link](https://youtu.be/AAvqscJPXIY?si=ApZ9-WfFfyGbcd-H)
 
 ## Main underlying techniques used in this chatbot:
 - LLM chains and agents
@@ -45,7 +39,7 @@ NOTE: This chatbot includes both the RAG-GPT and WebRAGQuery projects.
 ```
 sudo apt update && sudo apt upgrade
 python3 -m venv chatbot-env
-git clone <the repository>
+git clone HUMAIN-advanced-multimodal-chatbot.git
 ```
 cd multimodal-chatbot
 ```
@@ -102,17 +96,6 @@ or
 ```
 gradio src/app.py
 ```
-
-## Chatbot User Interface
-<div align="center">
-  <img src="images/UI.png" alt="ChatBot UI">
-</div>
-
-
-## Project Schema
-<div align="center">
-  <img src="images/Schema.png" alt="Schema">
-</div>
 
 ## Key frameworks/libraries used in this chatbot:
 - Langchain: [introduction](https://python.langchain.com/docs/get_started/introduction)
